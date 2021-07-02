@@ -60,10 +60,9 @@ body {
   }
   
     .cardGroup__card {
-      flex-grow: initial;
-      flex-shrink: initial;
+      
       flex-basis: 100%;
-      /* flex-grow, flex-shrink, flex-basis */
+      /* flex-grow, flex-shrink, flex-basisit  */
       border: none;
       border-radius: 0;
     }
@@ -73,13 +72,12 @@ body {
     }
   
     .cardGroup__cardDescription {
-      flex-grow: initial;
-      flex-shrink: initial;
+      
       flex-basis: 100%;
       /* flex-grow, flex-shrink, flex-basis */
     }
 
-@media (min-width: 768px){
+@media (min-width: 769px){
   .cardGroup{
     max-width: 710px;
     flex-direction: row;
