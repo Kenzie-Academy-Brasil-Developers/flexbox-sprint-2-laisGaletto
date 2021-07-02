@@ -7,11 +7,6 @@ html {
 }
 
 body {
-  display: flex;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-  justify-content: center;
 }
 
 .icon {color: #BCD2DA;}
@@ -60,6 +55,8 @@ body {
     border-radius: 4px;
     overflow: hidden;
     max-width: 320px;
+    margin: 0 auto;
+    flex-direction: column;
   }
   
     .cardGroup__card {
@@ -82,9 +79,10 @@ body {
       /* flex-grow, flex-shrink, flex-basis */
     }
 
-@media (max-width: 1024px){
+@media (min-width: 768px){
   .cardGroup{
     max-width: 710px;
+    flex-direction: row;
 
   }
 }
